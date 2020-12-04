@@ -20,7 +20,8 @@
         "start": "bash ./scripts/build.sh watch",
         "test": "bash ./scripts/test.sh",
         "version": "bash ./scripts/version.sh",
-        "postversion": "bash ./scripts/github-release.sh"
+        "postversion": "bash ./scripts/github-release.sh",
+        "prepare": "bash ./scripts/build.sh production",
     },
     "main": "./dist/mathlive.js",
     "module": "./dist/mathlive.mjs",
